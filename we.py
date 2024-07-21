@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open(r"C:\Users\mahes\model.pkl", "rb"))
+model = pickle.load(open(r"model.pkl", "rb"))
 
 # Define the input fields for the Streamlit app
 st.title("Weather Classification Prediction")
