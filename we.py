@@ -9,7 +9,7 @@ model = pickle.load(open(r"model.pkl", "rb"))
 # Define the input fields for the Streamlit app
 st.title("Weather Classification Prediction")
 
-st.header("Input the following weather details:")
+
 
 # Define input fields for numerical features
 temperature = st.number_input("Temperature")
