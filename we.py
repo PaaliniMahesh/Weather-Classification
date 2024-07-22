@@ -44,5 +44,4 @@ if st.button("Predict Weather Type"):
     prediction = model.predict(input_data)
     st.write(f"Predicted Weather Type: {prediction[0]}")
 
-# To run the Streamlit app, execute the command:
-# streamlit run app.py
+
